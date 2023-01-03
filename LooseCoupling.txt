@@ -1,0 +1,17 @@
+High cohesion: Elements within one class/module should functionally belong together and do one particular thing.
+ Loose coupling: Among different classes/modules should be minimal dependency.
+
+The goal of a loose coupling architecture is to reduce the risk that a change made within one element will create unanticipated changes within other elements. Limiting interconnections can help isolate problems when things go wrong and simplify testing, maintenance and troubleshooting procedures.
+
+A loosely coupled system can be easily broken down into definable elements. The extent of coupling in a system can be measured by mapping the maximum number of element changes that can occur without adverse effects. Examples of such changes include adding elements, removing elements, renaming elements, reconfiguring elements, modifying internal element characteristics and rearranging the way in which elements are interconnected. 
+
+Although loose coupling minimizes unnecessary interaction among system elements, it can create problems when such interaction is desired. For example, in some data-centric systems a high degree of element interdependence is necessary for synchronization in real time. 
+
+--
+https://en.wikipedia.org/wiki/Loose_coupling
+
+https://medium.com/clarityhub/low-coupling-high-cohesion-3610e35ac4a6
+
+https://www.baeldung.com/cs/cohesion-vs-coupling
+
+
